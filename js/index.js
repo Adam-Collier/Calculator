@@ -18,9 +18,9 @@ $("button").on("click", function(){
     });
     var a = arr.join("").replace("x", '*').replace("÷", "/");
     arr = [];
-    var e = eval(a);
+    var e = parseFloat(eval(a).toFixed(8));
     $("p").html("");
-    $("h2").html(e.toString());
+    $("h2").html(e);
   }
   else{
     $("h2").append($(this).html());
