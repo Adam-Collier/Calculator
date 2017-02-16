@@ -60,6 +60,8 @@ body {
   .num:active {
     transform: scale(2);
     color: black; }
+  .num:focus {
+    outline: none; }
 
 .sym {
   box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.09);
@@ -77,6 +79,8 @@ body {
   .sym:active {
     transform: scale(1.4);
     color: black; }
+  .sym:focus {
+    outline: none; }
 
 .equals {
   border-radius: 10px;
@@ -93,3 +97,5 @@ body {
   transition: all 100ms ease-in; }
   .equals:hover {
     transform: scale(1.2); }
+  .equals:focus {
+    outline: none; }
